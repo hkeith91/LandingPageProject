@@ -1,4 +1,9 @@
 .main-layout{
     display: flex;
     flex-direction: column;
+    
 }
+ div{
+     /*placeholder borders*/
+     border: 5px solid black;
+ }
