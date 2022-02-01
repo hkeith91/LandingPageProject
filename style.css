@@ -1,9 +1,58 @@
-.main-layout{
-    display: flex;
-    flex-direction: column;
-    
+body {
+  background-color: rgb(33, 33, 36);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
- div{
-     /*placeholder borders*/
-     border: 5px solid black;
- }
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-container-header {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.hero,
+.footer-container {
+  background-color: #33435a;
+}
+
+div {
+  /*placeholder borders*/
+  border: 1px solid ivory;
+}
+
+.section {
+  min-height: 20vh;
+  width: 730px;
+}
+.information,
+.call-to-action {
+  background-color: ivory;
+}
+.quote {
+  background-color: #e5e7eb;
+}
