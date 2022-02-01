@@ -8,6 +8,8 @@ body {
 .main-layout {
   display: flex;
   flex-direction: column;
+  width: 100vw;
+
 }
 
 .header {
@@ -27,6 +29,7 @@ body {
 .header-link {
   font-size: 18px;
   color: #e5e7eb;
+  margin: 0 1.5em;
 }
 
 .footer-container {
@@ -40,14 +43,12 @@ body {
   background-color: #33435a;
 }
 
-div {
-  /*placeholder borders*/
-  border: 1px solid ivory;
-}
+
 
 .section {
   min-height: 20vh;
-  width: 730px;
+  padding: 0px 100px;
+
 }
 .information,
 .call-to-action {
