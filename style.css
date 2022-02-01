@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
 }
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
@@ -37,14 +38,33 @@ body {
   flex-direction: column-reverse;
   align-items: center;
 }
+
 .hero{
     display: flex;
     height: 25rem;
+    justify-content: center;
+}
+
+.declaration{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.hero-subtext{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-text,
+.hero-image{
+    width:600px;
+    height: 350px;
+    margin: 20px 20px
 }
 
 .hero-image{
-    width: 50%;
-    height: 125px;
+    
     background-color: green;
 }
 
@@ -53,6 +73,7 @@ body {
     flex-direction: column;
 }
 
+.header,
 .hero,
 .footer-container {
   background-color: #33435a;
@@ -61,10 +82,25 @@ body {
 .section {
   padding: 0px 175px;
 }
+
 .information,
 .call-to-action {
   background-color: ivory;
 }
 .quote {
   background-color: #e5e7eb;
+}
+
+button{
+    width: 80px;
+}
+
+.images-container{
+    display: flex;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #3882f6;
 }
