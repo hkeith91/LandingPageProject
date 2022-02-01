@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .main-layout {
@@ -85,7 +86,8 @@ body {
 
 .information,
 .call-to-action {
-  background-color: ivory;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
 }
 .quote {
   background-color: #e5e7eb;
@@ -93,14 +95,27 @@ body {
 
 button{
     width: 80px;
+    margin: 10px;
+    background-color: #3882f6;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
 }
 
 .images-container{
     display: flex;
 }
 
+.image-and-text{
+    display: flex;
+    flex-direction: column;
+}
+
 .image{
     width: 200px;
     height: 200px;
-    border: 10px solid #3882f6;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
 }
+
+
