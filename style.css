@@ -37,18 +37,29 @@ body {
   flex-direction: column-reverse;
   align-items: center;
 }
+.hero{
+    display: flex;
+    height: 25rem;
+}
+
+.hero-image{
+    width: 50%;
+    height: 125px;
+    background-color: green;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
 
 .hero,
 .footer-container {
   background-color: #33435a;
 }
 
-
-
 .section {
-  min-height: 20vh;
-  padding: 0px 100px;
-
+  padding: 0px 175px;
 }
 .information,
 .call-to-action {
