@@ -116,10 +116,10 @@ button {
   border-radius: 5px;
 }
 
-.bottom-sign-up{
-    border: 2px solid white;
-    max-height: 30px;
-    align-self: center;
+.bottom-sign-up {
+  border: 2px solid white;
+  max-height: 30px;
+  align-self: center;
 }
 
 .images-container {
@@ -139,27 +139,48 @@ button {
   border-radius: 10px;
 }
 
-.call-to-action{
-    display:flex;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.cta-container{
-    width: 1000px;
-    height: 200px;
-    background-color: #3882f6;
-    display: flex;
-    justify-content: space-around;
+.cta-container {
+  width: 1000px;
+  height: 200px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.cta-text{
-    display: flex;
-    flex-direction: column;
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.bold-cta {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+}
+
+.lighter-cta {
+  font-size: 24px;
+  font-weight: lighter;
+  color: white;
+}
+
+.footer-text-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
   color: white;
-  min-height: 75px;
 }
